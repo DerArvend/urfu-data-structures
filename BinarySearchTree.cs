@@ -59,6 +59,7 @@ namespace Structures
 			Value = oldLeft.Value;
 			Right.Left = oldLeft.Right;
 			Right.Right = oldRight;
+			
 		}
 
 		private void RotateLeft()

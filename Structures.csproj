@@ -62,13 +62,21 @@
   <ItemGroup>
     <Compile Include="AVLTree.cs" />
     <Compile Include="BinaryHeap.cs" />
+    <Compile Include="GraphNode.cs" />
+    <Compile Include="GraphUtils.cs" />
+    <Compile Include="HashTable.cs" />
+    <Compile Include="HashTableOpenAddressed.cs" />
+    <Compile Include="IntExtensions.cs" />
+    <Compile Include="NodeColor.cs" />
     <Compile Include="RandomizedTree.cs" />
+    <Compile Include="RedBlackTree.cs" />
     <Compile Include="Tests\BinaryTreeInTask1_should.cs" />
     <Compile Include="Tests\BinaryTreeInTask2_should.cs" />
     <Compile Include="Tests\BinaryTreeInTask3_should.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\BinaryHeapTests.cs" />
+    <Compile Include="Tests\HashTableTests.cs" />
     <Compile Include="Tests\ShuffleExtension.cs" />
     <Compile Include="BinarySearchTree.cs" />
   </ItemGroup>
